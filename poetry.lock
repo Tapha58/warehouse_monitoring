@@ -55,6 +55,18 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "djangorestframework"
+version = "3.14.0"
+description = "Web APIs for Django, made easy."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+django = ">=3.0"
+pytz = "*"
+
+[[package]]
 name = "filelock"
 version = "3.8.0"
 description = "A platform independent file lock."
@@ -114,6 +126,14 @@ toml = "*"
 virtualenv = ">=20.0.8"
 
 [[package]]
+name = "pytz"
+version = "2022.4"
+description = "World timezone definitions, modern and historical"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pyyaml"
 version = "6.0"
 description = "YAML parser and emitter for Python"
@@ -165,7 +185,7 @@ testing = ["coverage (>=6.2)", "coverage-enable-subprocess (>=1)", "flaky (>=3.7
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "666f23c9e4acb997895eeb9c9103dbe6d14d874b27e9ec7e5f48c973f62e94ea"
+content-hash = "f43d6b24070507f866d2ab235aa3d303085905ce6d4cead35c36c7fd993a8ea3"
 
 [metadata.files]
 asgiref = []
@@ -173,11 +193,13 @@ asgiref = []
 cfgv = []
 distlib = []
 django = []
+djangorestframework = []
 filelock = []
 identify = []
 nodeenv = []
 platformdirs = []
 pre-commit = []
+pytz = []
 pyyaml = []
 sqlparse = []
 toml = []
