@@ -3,15 +3,6 @@ import random
 from warehouse.models import TrackedPart
 
 
-# part = create_random_part()
-#
-# updated_part = set_zero_count(part)
-#
-# part2 = get_by_id(part.id)
-#
-# delete_part(updated_part)
-
-
 def create_random_part():
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     part_name = ''
@@ -36,4 +27,3 @@ def get_by_id_v2(part_id):
 
 def delete_part(updated_part):
     updated_part.delete()
-
