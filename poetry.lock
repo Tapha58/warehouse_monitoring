@@ -295,6 +295,14 @@ toml = "*"
 virtualenv = ">=20.0.8"
 
 [[package]]
+name = "psycopg2"
+version = "2.9.4"
+description = "psycopg2 - Python-PostgreSQL Database Adapter"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "pyparsing"
 version = "3.0.9"
 description = "pyparsing module - Classes and methods to define and execute parsing grammars"
@@ -446,7 +454,7 @@ testing = ["coverage (>=6.2)", "coverage-enable-subprocess (>=1)", "flaky (>=3.7
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "0939babc4e16de73da46edf671fd27361407a26cf1db5ccb30e8c701808dc0e0"
+content-hash = "ba0d94778aefb8dfd014518b7850824ee3bfe26088286097706f8a8cbb6904d2"
 
 [metadata.files]
 asgiref = []
@@ -475,6 +483,7 @@ packaging = []
 pandas = []
 platformdirs = []
 pre-commit = []
+psycopg2 = []
 pyparsing = []
 python-dateutil = []
 pytz = []
